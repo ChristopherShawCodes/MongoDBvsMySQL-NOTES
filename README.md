@@ -1,9 +1,13 @@
 # MongoDBvsMySQL-NOTES
 
-Start server: mongosh
+Start server 
+
+Command: mongosh
 ---------------------------
 
-Exit server: exit 
+Exit server
+
+Command: exit 
 
 ---------------------------
 
