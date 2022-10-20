@@ -27,14 +27,42 @@ brew services stop mongodb-community@5.0
 Comparing MongoDB to MySQL
 
 
-Database Type:	                                SQL	            Mongo
+Database Type:	                          
 -------------------------------------------------------------------------------
-Database	                                    Schema	        Database (db)
--------------------------------------------------------------------------------
-Collection of related records	                Tables	        Collections
+Database
+
+MySQL:
+
+Schema	 
+
+
+Mongo:
+
+Database (db)
+
 -------------------------------------------------------------------------------
 
-Each one record in the collection of records	Row / Record	Document
+Collection of related records	 
+
+MySql:
+
+Tables	  
+
+Mongo:
+
+Collections
+
+-------------------------------------------------------------------------------
+
+Each one record in the collection of records	
+
+MySql:
+
+Row / Record	
+
+Mongo:
+
+Document
 
 
 ****************** MySQL Database Schema == MongoDB Database (db) *****************
