@@ -70,18 +70,21 @@ Document
 Database will be used to hold an entire project's Database
 
 
-Commands: 
+***********Commands************** 
 -------------------------------------------------
 
 
 Show all databases available on our current MongoDB server	
 
 Command:
+
 show dbs
 -------------------------------------------------
 
 Show current database selected	
+
 Command:
+
 db
 
 -------------------------------------------------
