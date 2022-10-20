@@ -44,12 +44,12 @@ Commands:
 
 Show all databases available on our current MongoDB server	
 
-Example:
+Command:
 show dbs
 -------------------------------------------------
 
 Show current database selected	
-Example:
+Command:
 db
 
 -------------------------------------------------
@@ -61,7 +61,7 @@ Mongo shell will create a new database and switch to it.
 Pattern:
 use DB_NAME
 
-Example:
+Command:
 use message_board_db
 
 -------------------------------------------------
@@ -69,7 +69,7 @@ use message_board_db
 Delete database
 Note: db.dropDatabase() will delete the current database in use.
 
-Example:
+Command:
 use message_board_db
 db.dropDatabase()
 
@@ -81,7 +81,7 @@ db.dropDatabase()
 
 
 View all collections in a MongoDB	
-Example:
+Command:
 show collections
 -------------------------------------------------
 
@@ -90,7 +90,7 @@ Create a new collection in the current database
 Pattern:
 db.createCollection("COLLECTION_NAME")
 
-Example:
+Command:
 db.createCollection("ninjas")
 -------------------------------------------------
 
@@ -99,7 +99,7 @@ Destroy a collection
 Pattern:
 db.COLLECTION_NAME.drop()
 
-Example:
+Command:
 db.ninjas.drop()
 -------------------------------------------------
 
