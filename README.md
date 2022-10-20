@@ -1,14 +1,23 @@
 # MongoDBvsMySQL-NOTES
 
 Start server: mongosh
+---------------------------
+
 Exit server: exit 
+
+---------------------------
+
+-------------------------------------------
 
 run as a macOs service:
 
 brew services start mongodb-community@5.0
 
 stop:
+
 brew services stop mongodb-community@5.0
+
+-------------------------------------------
 
 
 Comparing MongoDB to MySQL
